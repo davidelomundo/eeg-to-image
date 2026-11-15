@@ -1,0 +1,41 @@
+# OS metadata
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Python virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.so
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Model checkpoints and training artefacts
+*.pth
+*.ckpt
+checkpoints/
+weights/
+logs/
+runs/
+wandb/
+
+# Large local datasets and generated outputs
+train/
+src/gan/ProGan-PyTorch/datasetMNIST/
+src/super_resolution/dataset/
+output/
+*.npz
+*.npy
+*.h5
+*.hdf5
+
+# IDE/editor files
+.vscode/
+.idea/
